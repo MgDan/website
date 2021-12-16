@@ -1,13 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
 </head>
+
 <body>
-    <div id="contenedor"></div>
-    <!--mi primer cambio-->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link">logo</a>
+            <button class="nav-toggle" aria-label="Abrir menu">
+                <span class="material-icons-outlined">
+                    menu
+                    </span>
+            </button>
+            <ul class="nav-menu nav-menu_visible">
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">cursos</a></li>
+                <div class="search">
+                    <input type="text" placeholder="search" required>
+                    <!--<span class="material-icons-outlined icon">
+                        search
+                        </span> -->
+                </div>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">inicio</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">registro</a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link">lenguage</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--<script src="js/script.js"></script> -->
+    <!--contenido-->
+    <div class="contaires-card" id="contenedor">
+
+        <div class="card">
+            <img src="" alt="">
+            <h4>Java</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nesciunt nulla error velit modi quas dignissimos labore ex eligendi neque cupiditate harum vitae nisi quasi atque delectus quam, fuga tempora!</p>
+            <a href="#">leer mas</a>
+        </div>
+
+        <div class="card">
+            <img src="" alt="">
+            <h4>JavaScript</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nesciunt nulla error velit modi quas dignissimos labore ex eligendi neque cupiditate harum vitae nisi quasi atque delectus quam, fuga tempora!</p>
+            <a href="#">leer mas</a>
+        </div>
+
+        <div class="card">
+            <img src="" alt="">
+            <h4>Python</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nesciunt nulla error velit modi quas dignissimos labore ex eligendi neque cupiditate harum vitae nisi quasi atque delectus quam, fuga tempora!</p>
+            <a href="#">leer mas</a>
+        </div>
+
+    </div>
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our service</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">paymet options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </footer>
+  
+    <script src="js/main.js"></script>
+
 </body>
-<script src="js/main.js"></script>
 </html>
